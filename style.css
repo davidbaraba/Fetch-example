@@ -1,0 +1,52 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(46,46,46);
+    color: white;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.input-div{
+    display: flex;
+}
+input{
+    background-color: transparent;
+    border: 1px solid;
+    font-size: large;
+    width: 500px;
+    color: rgb(177,182,253);
+    padding: 10px;
+}
+input:focus{
+    border: 3px solid;
+    border-color: rgb(139,146,248);
+    outline: none;
+}
+.error-input{
+    border: 3px solid red;
+}
+#askBtn{
+    background-color: transparent;
+    border: 1px solid;
+    color: rgb(177,182,253);
+    margin-left: 0px;
+    padding: 0 10px;
+}
+#img-article{
+    position: relative;
+}
+#text-content{
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.hide{
+    display: none;
+}
+/* .show{
+    display: flex;
+} */
